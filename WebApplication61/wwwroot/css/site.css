@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.validation-summary-errors {
+    border: 2px solid red;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 400px;
+}
+
+.validation-summary-errors ul {
+        list-style-type: none;
+        color: #fff;
+}
+.cursor-pointer{
+    cursor:pointer;
+}
